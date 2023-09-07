@@ -31,7 +31,8 @@ Researched answer:Comparison operators, logical operators, conditional operators
 
 Your answer: The index of an array is its location or position in the array, whereas its value is the value stored at a specific index location. Arrays can hold all types of data, so it could be a number, a string, an undefined value, a Boolean value, ect.
 
-Researched answer:
+Researched answer: and index: An index is a numerical identifier that represents the position of an element within the array. Index values typically start at 0 for the first element in the array and increment by 1 for each subsequent element. Index values are used to access and retrieve specific elements from the array. 
+value: The value is the actual data or content stored in an element of the array. It represents the information you want to store or retrieve from the array. Values can be of various data types, such as integers, floating-point numbers, strings, or even complex objects.
 
 4. Compare and contrast arrays and strings. Please include ways in which they are the same and ways in which they are different.
 

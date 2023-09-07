@@ -44,14 +44,16 @@ Researched answer:They are the same in that they are squencial data structures
 Your answer: The driver should be the one with their hands on the keyboard. They are the one who physicall write  the code dictated from the Navigator. They may ask questions and collaborate, but, they are not the main person in control.
 The navigator is the other half to pair programing. It is their job to direct, istruct and dictate to the driver what the code should be.
 
-Researched answer:
+Researched answer: 
+Driver:They are responsible for implementing the code, debugging, and making tactical decisions about how to solve the problem they are working on. They are focused on the details of the code.
+Navigator: In chrge of reviewing the code as it is being written. Thinks strategically about the code, considers alternative appproaches, and helps to adhere to coding standards.
 
 ## Looking Ahead: Terms for Next Week
 
 Research and define the following terms to the best of your ability.
 
-1. Higher Order Functions:
+1. Higher Order Functions: Is a concept in programming where functions are treated as "first-class citizens", allowing them to be used as arguments, returned as values fromother functions, and assigned to variables. A function that operates on other functions--by taking them as arguments or returning them.
 
-2. Jest:
+2. Jest: Jest is a widely used JavaScript testing framework developed by Facebook. It is known for being simple and easy to use, requiring minimal configuration.
 
-3. Objects:
+3. Objects: An object is a fundamental data type that represents a collection of key value pairs. They are used to store and organize data and are central to the JavaScript language. Objects can represent real world entities, concepts, or data structures.

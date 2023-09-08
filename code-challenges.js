@@ -32,7 +32,24 @@ const temperature2 = 350
 const temperature3 = 212
 // Expected output: "212 is at boiling point"
 
-// Pseudo code:
+// Pseudo code: Make a function that will tell you if a temperature number is above, at, or below boiling point.
+//input: a function called boilingPoint
+//output: <temperature> is below boiling point. <temperature> is at boiling point. <temperature> is above boiliing point.
+//process: function expression with an input.
+// const boilingPoint = (temperature) => {
+//     if (temperature < 212){
+//         return (`${temperature} is below boiling point.`)
+//     }   
+//     else if (temperature === 212){
+//         return (`${temperature} is at boiling point.`)
+//     }
+//     else if (temperature > 212){
+//         return (`${temperature} is above boiling point.`)
+//     }
+// }   
+// console.log(boilingPoint(temperature1))
+// console.log(boilingPoint(temperature2))
+// console.log(boilingPoint(temperature3))
 
 // --------------------2) Create the code that will combine the two arrays and return the length using the test variables provided below.
 
@@ -40,14 +57,39 @@ const padres1984WorldSeriesRuns = [2, 5, 2, 2, 4]
 const padres1998WorldSeriesRuns = [6, 3, 5, 3]
 // Expected output: 9
 
-// Pseudo code:
+// Pseudo code: Make the code that is going to combine the arrays given and then return the length.
+//Input:<padres1984WorldSeriesRuns> <padres1998WorldSeriesRuns>
+//Output:<arrayLength)
+//Process: function expression with multiple parameters.
+
+// const combinedRuns = padres1984WorldSeriesRuns.concat(padres1998WorldSeriesRuns)
+// const combinedLength = combinedRuns.length
+// console.log(combinedLength)
+
 
 // --------------------3) Create the code that will reverse the letters of a string using the test variable provided below.
 
 const currentCohort = "Foxtrot 2023"
 // Expected output: "3202 tortxoF"
 
-// Pseudo code:
+// Pseudo code: Write the code that is going to split the string into an array, then reverse it, and then put it back into a string.
+//Input: a function named <reverseString>.
+//Output: <currentCohort> reversed
+//process: 
+
+const reversedCohort = currentCohort.split('').reverse().join('')
+console.log(reversedCohort)
+//I am getting back error messages. 
+//const lastIndexValue = numberOfConnections.lastIndexOf(
+                                                       
+// SyntaxError: Unexpected end of input
+// at internalCompileFunction (node:internal/vm:73:18)
+// at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+// at Module._compile (node:internal/modules/cjs/loader:1220:27)
+// at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+// at Module.load (node:internal/modules/cjs/loader:1119:32)
+// at Module._load (node:internal/modules/cjs/loader:960:12)
+// at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
 
 // --------------------4) Create the code that will return the last index of the given value from the array using the test variables provided below.
 
@@ -59,4 +101,9 @@ const givenValue1 = 42
 const givenValue2 = 10
 // Expected output: 8
 
-// Pseudo code:
+// Pseudo code: Make the code that will give back the last iindex of the given test values from the given array.
+//Input: <lastIndexValueOfArray>
+//Output: The last index of the value given from the array above.
+//Process:
+
+const lastIndexValue = numberOfConnections.lastIndexOf(
